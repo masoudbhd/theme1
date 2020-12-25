@@ -1,0 +1,434 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+	font-family: "font";
+	src: url("font/WebYekan.woff") format("woff");
+}
+
+a {
+	text-decoration: none;
+}
+
+input,
+textarea,
+button,
+select {
+	font-family: "font";
+}
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+body {
+	background: #F5DEB3;
+	font-family: "font";
+	font-size: 14px;
+
+}
+
+.clearfix {
+	clear: both;
+}
+
+.main {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.half {
+	width: 50%;
+	padding: 0 15px;
+	float: right;
+}
+
+.pull-right {
+	float: right;
+	margin: 30px 0 0;
+}
+
+.pull-left {
+	float: left;
+}
+
+.masthead .top-menu {
+	width: 100%;
+	background: #0000CD;
+	float: right;
+}
+
+.masthead .top-menu ul li {
+	display: inline-block;
+}
+
+.masthead .top-menu ul li a {
+	display: block;
+	padding: 15px 10px;
+	color: white;
+	font-size: 12px;
+}
+
+.masthead .top-menu ul li a:hover {
+	color: #00FF7F;
+}
+
+.masthead .main-menu {
+	width: 100%;
+	float: right;
+	background: #F5DEB3;
+
+}
+
+.masthead .main-menu ul li {
+	display: inline-block;
+	color: #F5DEB3;
+	padding: 30px 20px;
+
+}
+
+.masthead .main-menu ul li a:hover {
+	color: #00FF7F;
+}
+
+.masthed .logo {
+	margin: 10 px auto 0;
+}
+
+.gallery {
+	width: 100%;
+	float: right;
+}
+
+.gallery .gallery-item {
+	width: 200px;
+	float: right;
+}
+
+.gallery .gallery-item img {
+	float: right;
+}
+
+.gallery:hover a {
+	opacity: .2;
+	-webkit-transition: all .8s ease-in-out;
+}
+
+.gallery:hover a:hover {
+	opacity: 1;
+	-webkit-transition: all .8s ease-in-out
+}
+
+.team {
+	width: 100%;
+	float: right;
+	padding: 50px o;
+	background: #fff;
+
+}
+
+.title {
+	width: 100%;
+	float: right;
+	padding: 50px;
+	background:#fff;
+	text-align: center;
+}
+
+.title h2 {
+	font-size: 20px;
+	margin: 20px;
+	color: #2F4F4F;
+
+}
+
+.title p {
+	padding: 10px 0;
+}
+
+.team .team-details {
+	width: 33.33%;
+	float: right;
+	padding: 15px 30px;
+}
+
+.team .team-details img {
+	float: right;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.team .team-details .team-content {
+	padding: 20px;
+	background: #E0FFFF;
+	float: right;
+	line-height: 30px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.team .team-details .team-content h2 {
+	font-size: 17px;
+	color: red;
+	margin-bottom: 10px;
+}
+
+.team .team-details .team-content p {
+	font-size: 17px;
+	text-align: justify;
+	color: #7CFC00;
+}
+
+.customer {
+	width: 100%;
+	float: right;
+	padding: 50px 0;
+	background: #E0FFFF;
+}
+
+.customer .item {
+	width: 33.33%;
+	float: right;
+	padding: 15px 30px;
+	margin: 40px auto 0;
+	position: relative;
+}
+
+.customer .item .item-text {
+	padding: 30px;
+	background: #A9A9A9;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	line-height: 25px;
+	border-radius: 3px;
+}
+
+.customer .item .active {
+	background: #7CFC00;
+	padding: 30px;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	line-height: 25px;
+	border-radius: 3px;
+}
+
+.customer .item .item-info {
+	margin: 10px auto;
+}
+
+.customer .item .item-info img {
+	border-radius: 50%;
+	float: right;
+	margin-left: 10px;
+}
+
+.customer .item .item-info span {
+	display: inline-block;
+	padding: 15px 0 0;
+	font-size: 11px;
+}
+
+.customer .item .item-info span.name {
+	font-size: 17px;
+
+}
+
+.newsletter {
+	width: 100%;
+	float: right;
+	padding: 100px 0;
+	position: relative;
+	background: url(images/b/1.jpg);
+	background-size: cover;
+}
+
+.newsletter .title-newsletter {
+	font-size: 35px;
+	color: #000080;
+	margin: 20px auto 0;
+}
+
+.newsletter input[type="text"] {
+	width: 320px;
+	height: 70px;
+	float: right;
+	padding: 20px;
+	border: 0;
+	font-size: 18px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+
+}
+
+.newsletter input[type="text"]:focus {
+	outline: 0;
+}
+
+.newsletter input[type="submit"] {
+	width: 200px;
+	height: 70px;
+	float: left;
+	padding: 20px;
+	border: 0;
+	background: #000080;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	font-size: 15px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.newsletter input[type="submit"]:hover {
+	background: #00FF00;
+}
+
+.payan {
+	width: 100%;
+	background: #000080;
+	color: #fff;
+	float: right;
+	text-align: center;
+	padding: 10px 0;
+}
